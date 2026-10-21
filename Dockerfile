@@ -1,5 +1,5 @@
 # FROM node:6-stretch
-FROM node:18.13.0-bullseye
+FROM node:26.12.0
 
 # Pinned vulnerable OS packages for SCA remediation agent testing (Dockerfile RUN pins → dependency track).
 RUN apt-get update \
